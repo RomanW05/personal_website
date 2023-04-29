@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Roman Walden - Games{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h1>Games</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan justo eget ligula facilisis, sit amet tristique ex imperdiet.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ url_for('static', filename='images/apple-icon-152x152.png') }}" alt="Image 1">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ url_for('static', filename='images/apple-icon-152x152.png') }}" alt="Image 2">
+      </div>
+      <div class="col-md-6">
+        <p>Suspendisse euismod velit sed risus dapibus efficitur. Nam tincidunt aliquam urna, eget pharetra arcu semper vitae.</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
